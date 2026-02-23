@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Thayanne Oliveira Silva</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2f4b7c;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #4a6fa5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #4a6fa5;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 180px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+        }
+
+        aside {
+            background-color: #e8eef7;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #2f4b7c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            background-color: #26509f;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2f4b7c;
+        }
+
+        iframe {
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Thayanne Oliveira Silva</h1>
+    <p>Estudante de Engenharia de Software | Futura Desenvolvedora Front-end</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#trajetoria">Trajetória</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <article>
+        <p>
+            Sou estudante de Engenharia de Software apaixonada por tecnologia, desenvolvimento web
+            e inovação digital. Tenho experiência com atendimento ao público, divulgação de produtos
+            em redes sociais e estou em constante evolução na área de programação.
+        </p>
+
+        <blockquote>
+            "A tecnologia move o mundo." – Steve Jobs
+        </blockquote>
+
+        <img src="_GUS0324.jpeg" alt="Foto de Thayanne Oliveira Silva">
+    </article>
+</section>
+
+<section id="trajetoria">
+    <h2>Minha Trajetória</h2>
+
+    <p>
+        Iniciei minha jornada profissional na área de atendimento e vendas, desenvolvendo
+        habilidades de comunicação e relacionamento com clientes. Posteriormente, decidi migrar
+        para a área de tecnologia, onde encontrei minha verdadeira paixão.
+    </p>
+
+    <p>
+        Atualmente estou focada no desenvolvimento Front-end e no aprimoramento
+        de conhecimentos em banco de dados e lógica de programação.
+    </p>
+</section>
+
+<section id="formacao">
+    <h2>Formação Acadêmica</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Instituição</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Técnica em Meio Ambiente</td>
+                <td>IFPI</td>
+                <td>Concluído</td>
+            </tr>
+            <tr>
+                <td>Engenharia de Software</td>
+                <td>Centro Universitário Santo Agostinho</td>
+                <td>Em andamento</td>
+            </tr>
+            <tr>
+                <td>Curso de Gestão de Tráfego Pago</td>
+                <td>Hotmart</td>
+                <td>Concluído</td>
+            </tr>
+            <tr>
+                <td>Curso de Informática</td>
+                <td>J&F Tecnologia/Cursos e Treinamentos</td>
+                <td>Concluído</td>
+            </tr>
+            <tr>
+                <td>Figma - UX/UI do básico ao avançado</td>
+                <td>Udemy</td>
+                <td>Concluído</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Certificações</h3>
+    <ul>
+        <li>Curso de Informática</li>
+        <li>Curso de Telemarketing</li>
+        <li>Curso de Espanhol (intermediário)</li>
+        <li>Curso de Extensão em Libras</li>
+    </ul>
+</section>
+
+<section id="projetos">
+    <h2>Projetos no GitHub</h2>
+
+    <article>
+        <h3>Projeto 1 – Página Web Responsiva</h3>
+        <p>Projeto desenvolvido utilizando HTML para prática de estrutura semântica.</p>
+        <a href="#" target="_blank">Ver no GitHub</a>
+    </article>
+
+    <article>
+        <h3>Projeto 2 – Sistema Simples em Python</h3>
+        <p>Aplicação básica utilizando conceitos de lógica de programação.</p>
+        <a href="#" target="_blank">Ver no GitHub</a>
+    </article>
+
+    <p>
+        🔗 Acesse meu perfil completo:
+        <a href="https://www.linkedin.com/in/thayanne-oliveira-3ab5a22b7" target="_blank">
+            LinkedIn
+        </a>
+    </p>
+</section>
+
+<aside>
+    <h4>Habilidades Técnicas</h4>
+    <ol>
+        <li>HTML5</li>
+        <li>Lógica de Programação</li>
+        <li>Banco de Dados (básico)</li>
+        <li>Informática Avançada</li>
+        <li>Python (básico)</li>
+        <li>Levantamento de requisitos</li>
+        <li>JavaScript (básico)</li>
+    </ol>
+</aside>
+
+<section id="contato">
+    <h2>Entre em contato:</h2>
+
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="assunto">Assunto:</label><br>
+        <input type="text" id="assunto" name="assunto"><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h3>Localização</h3>
+    <iframe 
+        src="https://www.google.com/maps?q=Teresina,Piauí&output=embed"
+        width="100%" 
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 - Thayanne Oliveira Silva</p>
+    <p>Desenvolvido como Projeto Final de HTML5</p>
+</footer>
+
+</body>
+</html>
